@@ -36,7 +36,7 @@ def check_password():
         return True
 
     # Mostra o formulário de entrada de senha
-    st.image("assets/logo.png", width=300)
+    st.image("logo.png", width=300)
     st.title("Análise de Preço Justo de Graham")
     st.markdown("### Acesso Restrito")
     st.text_input(
@@ -426,7 +426,7 @@ def highlight_rows(s):
 # Aplicação principal
 def main():
     # Carregar logo
-    logo = Image.open("assets/logo.png")
+    logo = Image.open("logo.png")
     
     # Sidebar com logo
     st.sidebar.image(logo, width=200)
@@ -688,7 +688,7 @@ def main():
         
         # Mostrar exemplo de análise
         st.subheader("Exemplo de análise")
-        st.image("assets/exemplo_analise.png", caption="Exemplo de análise com dados do Status Invest")
+        st.image("exemplo_analise.png", caption="Exemplo de análise com dados do Status Invest")
 
 # Executar a aplicação
 if __name__ == "__main__":
