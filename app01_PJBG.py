@@ -25,7 +25,7 @@ def check_password():
     """Retorna `True` se a senha estiver correta."""
     def password_entered():
         """Verifica se a senha enviada pelo formulário está correta."""
-        if st.session_state["password"] == "gansacademy":
+        if st.session_state["password"] == st.secrets["senha"]:
             st.session_state["password_correct"] = True
             del st.session_state["password"]  # Não armazene a senha
         else:
