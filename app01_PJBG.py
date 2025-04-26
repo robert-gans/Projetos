@@ -687,8 +687,8 @@ def main():
         """)
         
         # Mostrar exemplo de análise
-        st.subheader("Exemplo de análise")
-        st.image("exemplo_analise.png", caption="Exemplo de análise com dados do Status Invest")
+        # st.subheader("Exemplo de análise")
+        # st.image("exemplo_analise.png", caption="Exemplo de análise com dados do Status Invest")
 
 # Executar a aplicação
 if __name__ == "__main__":
