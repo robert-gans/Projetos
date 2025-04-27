@@ -4,3 +4,6 @@ numpy
 matplotlib
 plotly
 Pillow
+boto3
+requests
+pyrebase4
